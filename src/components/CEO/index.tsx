@@ -18,7 +18,7 @@ const CEO = () => {
             <div className="relative overflow-hidden rounded-md">
               <Image
                 src="/images/ceo/ceo-image.jpeg"
-                alt="CEO Sarah Chen - Professional Digital Marketing Expert"
+                alt="CEO Sukh - Professional Digital Marketing Expert"
                 width={500}
                 height={600}
                 className="h-auto w-full object-cover"
@@ -52,11 +52,11 @@ const CEO = () => {
               </blockquote>
 
               <p className="mb-4 text-base text-body-color dark:text-body-color-dark">
-                With over 5 years of experience in digital marketing and web development, Sarah has helped 200+ businesses transform their online presence and achieve remarkable growth. Based in Auckland, she brings a global perspective to local businesses.
+                With over 5 years of experience in digital marketing and web development, we helped 200+ businesses transform their online presence and achieve remarkable growth. Based in Auckland, we bring a global perspective to local businesses.
               </p>
 
               <p className="text-base text-body-color dark:text-body-color-dark">
-                Her vision is simple: provide small and medium businesses with the same high-quality digital marketing services that large corporations use, but at prices they can actually afford.
+                Our vision is simple, provide small and medium businesses with the same high-quality digital marketing services that large corporations use, but at prices they can actually afford.
               </p>
             </div>
 
