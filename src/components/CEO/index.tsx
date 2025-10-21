@@ -128,7 +128,7 @@ const CEO = () => {
                       <path d="M20 6L9 17L4 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </div>
-                  <span className="text-body-color dark:text-body-color-dark">Awarded "Top Digital Marketing Agency" by Local Business Awards</span>
+                  <span className="text-body-color dark:text-body-color-dark">Awarded &ldquo;Top Digital Marketing Agency&rdquo; by Local Business Awards</span>
                 </div>
               </div>
             </div>
