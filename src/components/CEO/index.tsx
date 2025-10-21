@@ -63,7 +63,7 @@ const CEO = () => {
             {/* Key Achievements */}
             <div className="mb-8">
               <h4 className="mb-4 text-xl font-semibold text-black dark:text-white">
-                Key Achievements
+                Key Achievements & Expertise
               </h4>
               <div className="space-y-3">
                 <div className="flex items-center">
@@ -80,7 +80,23 @@ const CEO = () => {
                       <path d="M20 6L9 17L4 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </div>
-                  <span className="text-body-color dark:text-body-color-dark">Certified in Google Analytics, Facebook Marketing, and SEO</span>
+                  <span className="text-body-color dark:text-body-color-dark">Managed 50+ social media accounts with 2M+ combined followers</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="mr-3 flex h-6 w-6 items-center justify-center rounded-full bg-primary/10">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" className="text-primary">
+                      <path d="M20 6L9 17L4 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <span className="text-body-color dark:text-body-color-dark">Generated $5M+ in revenue for clients through digital marketing</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="mr-3 flex h-6 w-6 items-center justify-center rounded-full bg-primary/10">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" className="text-primary">
+                      <path d="M20 6L9 17L4 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <span className="text-body-color dark:text-body-color-dark">Certified in Google Analytics, Facebook Marketing, Instagram Marketing, and SEO</span>
                 </div>
                 <div className="flex items-center">
                   <div className="mr-3 flex h-6 w-6 items-center justify-center rounded-full bg-primary/10">
@@ -97,6 +113,22 @@ const CEO = () => {
                     </svg>
                   </div>
                   <span className="text-body-color dark:text-body-color-dark">98% client satisfaction rate across all projects</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="mr-3 flex h-6 w-6 items-center justify-center rounded-full bg-primary/10">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" className="text-primary">
+                      <path d="M20 6L9 17L4 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <span className="text-body-color dark:text-body-color-dark">Expert in TikTok, LinkedIn, Twitter, and YouTube marketing strategies</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="mr-3 flex h-6 w-6 items-center justify-center rounded-full bg-primary/10">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" className="text-primary">
+                      <path d="M20 6L9 17L4 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <span className="text-body-color dark:text-body-color-dark">Awarded "Top Digital Marketing Agency" by Local Business Awards</span>
                 </div>
               </div>
             </div>

@@ -129,10 +129,10 @@ const Statistics = () => {
               </div>
             </div>
             <h3 className="mb-2 text-4xl font-bold text-black dark:text-white">
-              3x
+              2M+
             </h3>
             <p className="text-base text-body-color dark:text-body-color-dark">
-              More Qualified Leads
+              Social Media Followers
             </p>
           </div>
 
@@ -158,10 +158,181 @@ const Statistics = () => {
               </div>
             </div>
             <h3 className="mb-2 text-4xl font-bold text-black dark:text-white">
-              100%
+              98%
             </h3>
             <p className="text-base text-body-color dark:text-body-color-dark">
               Client Satisfaction
+            </p>
+          </div>
+        </div>
+
+        {/* Additional Stats Row */}
+        <div className="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
+          {/* Stat 5 */}
+          <div className="text-center">
+            <div className="mb-4 flex justify-center">
+              <div className="flex h-12 w-12 items-center justify-center rounded-md bg-green-100 dark:bg-green-900/20">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  className="text-green-600 dark:text-green-400"
+                >
+                  <path
+                    d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1Z"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3 className="mb-2 text-3xl font-bold text-black dark:text-white">
+              $5M+
+            </h3>
+            <p className="text-base text-body-color dark:text-body-color-dark">
+              Revenue Generated
+            </p>
+          </div>
+
+          {/* Stat 6 */}
+          <div className="text-center">
+            <div className="mb-4 flex justify-center">
+              <div className="flex h-12 w-12 items-center justify-center rounded-md bg-blue-100 dark:bg-blue-900/20">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  className="text-blue-600 dark:text-blue-400"
+                >
+                  <path
+                    d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <circle
+                    cx="9"
+                    cy="7"
+                    r="4"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M23 21V19C23 18.1645 22.7155 17.3541 22.2094 16.7006C21.7033 16.047 20.9999 15.5901 20.2 15.4"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89317 18.7122 8.75608 18.1676 9.45768C17.623 10.1593 16.8604 10.6597 16 10.98"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3 className="mb-2 text-3xl font-bold text-black dark:text-white">
+              50+
+            </h3>
+            <p className="text-base text-body-color dark:text-body-color-dark">
+              Social Media Accounts
+            </p>
+          </div>
+
+          {/* Stat 7 */}
+          <div className="text-center">
+            <div className="mb-4 flex justify-center">
+              <div className="flex h-12 w-12 items-center justify-center rounded-md bg-purple-100 dark:bg-purple-900/20">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  className="text-purple-600 dark:text-purple-400"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M8 14S9.5 16 12 16S16 14 16 14"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <line
+                    x1="9"
+                    y1="9"
+                    x2="9.01"
+                    y2="9"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <line
+                    x1="15"
+                    y1="9"
+                    x2="15.01"
+                    y2="9"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3 className="mb-2 text-3xl font-bold text-black dark:text-white">
+              5+
+            </h3>
+            <p className="text-base text-body-color dark:text-body-color-dark">
+              Years Experience
+            </p>
+          </div>
+
+          {/* Stat 8 */}
+          <div className="text-center">
+            <div className="mb-4 flex justify-center">
+              <div className="flex h-12 w-12 items-center justify-center rounded-md bg-orange-100 dark:bg-orange-900/20">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  className="text-orange-600 dark:text-orange-400"
+                >
+                  <path
+                    d="M13 2L3 14H12L11 22L21 10H12L13 2Z"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3 className="mb-2 text-3xl font-bold text-black dark:text-white">
+              3x
+            </h3>
+            <p className="text-base text-body-color dark:text-body-color-dark">
+              More Qualified Leads
             </p>
           </div>
         </div>
