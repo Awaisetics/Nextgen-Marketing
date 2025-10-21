@@ -11,17 +11,17 @@ const Statistics = () => {
           mb="100px"
         />
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4 sm:gap-x-8 sm:gap-y-10">
           {/* Stat 1 */}
           <div className="text-center">
-            <div className="mb-4 flex justify-center">
-              <div className="flex h-16 w-16 items-center justify-center rounded-md bg-primary/10">
+            <div className="mb-3 flex justify-center sm:mb-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded-md bg-primary/10 sm:h-16 sm:w-16">
                 <svg
-                  width="32"
-                  height="32"
+                  width="24"
+                  height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  className="text-primary"
+                  className="text-primary sm:w-8 sm:h-8"
                 >
                   <path
                     d="M12 2L2 7L12 12L22 7L12 2Z"
@@ -47,24 +47,24 @@ const Statistics = () => {
                 </svg>
               </div>
             </div>
-            <h3 className="mb-2 text-4xl font-bold text-black dark:text-white">
+            <h3 className="mb-2 text-2xl font-bold text-black dark:text-white sm:text-4xl">
               200+
             </h3>
-            <p className="text-base text-body-color dark:text-body-color-dark">
+            <p className="text-sm text-body-color dark:text-body-color-dark sm:text-base">
               Websites Built
             </p>
           </div>
 
           {/* Stat 2 */}
           <div className="text-center">
-            <div className="mb-4 flex justify-center">
-              <div className="flex h-16 w-16 items-center justify-center rounded-md bg-primary/10">
+            <div className="mb-3 flex justify-center sm:mb-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded-md bg-primary/10 sm:h-16 sm:w-16">
                 <svg
-                  width="32"
-                  height="32"
+                  width="24"
+                  height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  className="text-primary"
+                  className="text-primary sm:w-8 sm:h-8"
                 >
                   <path
                     d="M13 2L3 14H12L11 22L21 10H12L13 2Z"
@@ -76,24 +76,24 @@ const Statistics = () => {
                 </svg>
               </div>
             </div>
-            <h3 className="mb-2 text-4xl font-bold text-black dark:text-white">
+            <h3 className="mb-2 text-2xl font-bold text-black dark:text-white sm:text-4xl">
               150%
             </h3>
-            <p className="text-base text-body-color dark:text-body-color-dark">
+            <p className="text-sm text-body-color dark:text-body-color-dark sm:text-base">
               Average ROI Increase
             </p>
           </div>
 
           {/* Stat 3 */}
           <div className="text-center">
-            <div className="mb-4 flex justify-center">
-              <div className="flex h-16 w-16 items-center justify-center rounded-md bg-primary/10">
+            <div className="mb-3 flex justify-center sm:mb-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded-md bg-primary/10 sm:h-16 sm:w-16">
                 <svg
-                  width="32"
-                  height="32"
+                  width="24"
+                  height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  className="text-primary"
+                  className="text-primary sm:w-8 sm:h-8"
                 >
                   <path
                     d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21"
@@ -128,24 +128,24 @@ const Statistics = () => {
                 </svg>
               </div>
             </div>
-            <h3 className="mb-2 text-4xl font-bold text-black dark:text-white">
+            <h3 className="mb-2 text-2xl font-bold text-black dark:text-white sm:text-4xl">
               2M+
             </h3>
-            <p className="text-base text-body-color dark:text-body-color-dark">
+            <p className="text-sm text-body-color dark:text-body-color-dark sm:text-base">
               Social Media Followers
             </p>
           </div>
 
           {/* Stat 4 */}
           <div className="text-center">
-            <div className="mb-4 flex justify-center">
-              <div className="flex h-16 w-16 items-center justify-center rounded-md bg-primary/10">
+            <div className="mb-3 flex justify-center sm:mb-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded-md bg-primary/10 sm:h-16 sm:w-16">
                 <svg
-                  width="32"
-                  height="32"
+                  width="24"
+                  height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  className="text-primary"
+                  className="text-primary sm:w-8 sm:h-8"
                 >
                   <path
                     d="M9 11H15M9 15H15M17 21H7C5.89543 21 5 20.1046 5 19V5C5 3.89543 5.89543 3 7 3H12.5858C12.851 3 13.1054 3.10536 13.2929 3.29289L19.7071 9.70711C19.8946 9.89464 20 10.149 20 10.4142V19C20 20.1046 19.1046 21 18 21H17ZM17 21V10H13V6H7V19H17Z"
@@ -157,17 +157,17 @@ const Statistics = () => {
                 </svg>
               </div>
             </div>
-            <h3 className="mb-2 text-4xl font-bold text-black dark:text-white">
+            <h3 className="mb-2 text-2xl font-bold text-black dark:text-white sm:text-4xl">
               98%
             </h3>
-            <p className="text-base text-body-color dark:text-body-color-dark">
+            <p className="text-sm text-body-color dark:text-body-color-dark sm:text-base">
               Client Satisfaction
             </p>
           </div>
         </div>
 
         {/* Additional Stats Row */}
-        <div className="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-16 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4 sm:gap-x-8 sm:gap-y-10">
           {/* Stat 5 */}
           <div className="text-center">
             <div className="mb-4 flex justify-center">
@@ -189,10 +189,10 @@ const Statistics = () => {
                 </svg>
               </div>
             </div>
-            <h3 className="mb-2 text-3xl font-bold text-black dark:text-white">
+            <h3 className="mb-2 text-xl font-bold text-black dark:text-white sm:text-3xl">
               $5M+
             </h3>
-            <p className="text-base text-body-color dark:text-body-color-dark">
+            <p className="text-sm text-body-color dark:text-body-color-dark sm:text-base">
               Revenue Generated
             </p>
           </div>
@@ -241,10 +241,10 @@ const Statistics = () => {
                 </svg>
               </div>
             </div>
-            <h3 className="mb-2 text-3xl font-bold text-black dark:text-white">
+            <h3 className="mb-2 text-xl font-bold text-black dark:text-white sm:text-3xl">
               50+
             </h3>
-            <p className="text-base text-body-color dark:text-body-color-dark">
+            <p className="text-sm text-body-color dark:text-body-color-dark sm:text-base">
               Social Media Accounts
             </p>
           </div>
@@ -299,10 +299,10 @@ const Statistics = () => {
                 </svg>
               </div>
             </div>
-            <h3 className="mb-2 text-3xl font-bold text-black dark:text-white">
+            <h3 className="mb-2 text-xl font-bold text-black dark:text-white sm:text-3xl">
               5+
             </h3>
-            <p className="text-base text-body-color dark:text-body-color-dark">
+            <p className="text-sm text-body-color dark:text-body-color-dark sm:text-base">
               Years Experience
             </p>
           </div>
@@ -328,10 +328,10 @@ const Statistics = () => {
                 </svg>
               </div>
             </div>
-            <h3 className="mb-2 text-3xl font-bold text-black dark:text-white">
+            <h3 className="mb-2 text-xl font-bold text-black dark:text-white sm:text-3xl">
               3x
             </h3>
-            <p className="text-base text-body-color dark:text-body-color-dark">
+            <p className="text-sm text-body-color dark:text-body-color-dark sm:text-base">
               More Qualified Leads
             </p>
           </div>
